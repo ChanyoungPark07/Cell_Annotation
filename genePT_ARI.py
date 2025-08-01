@@ -116,13 +116,13 @@ def get_ARI(file_path, num_cells):
         train_gmm_ari_score_umap_lst.append(gmm_umap_train_ari_score)
         test_gmm_ari_score_umap_lst.append(gmm_umap_test_ari_score)
 
-    pd.DataFrame(data={'n_components': n_components_lst,
-                    'Train K-Means PCA': train_kmeans_ari_score_pca_lst,
-                    'Test K-Means PCA': test_kmeans_ari_score_pca_lst,
-                    'Train K-Means UMAP': train_kmeans_ari_score_umap_lst,
-                    'Test K-Means UMAP': test_kmeans_ari_score_umap_lst,
-                    'Train GMM PCA': train_gmm_ari_score_pca_lst,
-                    'Test GMM PCA': test_gmm_ari_score_pca_lst,
-                    'Train GMM UMAP': train_gmm_ari_score_umap_lst,
-                    'Test GMM UMAP': test_gmm_ari_score_umap_lst,
-                    }).set_index('n_components')
+    return pd.DataFrame(data={'n_components': n_components_lst,
+                              'Train K-Means PCA': train_kmeans_ari_score_pca_lst,
+                              'Test K-Means PCA': test_kmeans_ari_score_pca_lst,
+                              'Train K-Means UMAP': train_kmeans_ari_score_umap_lst,
+                              'Test K-Means UMAP': test_kmeans_ari_score_umap_lst,
+                              'Train GMM PCA': train_gmm_ari_score_pca_lst,
+                              'Test GMM PCA': test_gmm_ari_score_pca_lst,
+                              'Train GMM UMAP': train_gmm_ari_score_umap_lst,
+                              'Test GMM UMAP': test_gmm_ari_score_umap_lst,
+                              }).set_index('n_components')

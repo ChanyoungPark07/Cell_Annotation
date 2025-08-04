@@ -75,3 +75,16 @@ def get_gpt_embedding(text, model="text-embedding-ada-002"):
     )
 
     return np.array(response.data[0].embedding)
+
+
+def write_gpt_file(cell_df, num_unique_cells, N_TRUNC_GENE):
+    assert len(np.unique(np.array([cell.split('.')[0] for cell in cell_df.T.index]))) == num_unique_cells
+
+    sample_cells_data = get_seq_embed_gpt(np.array(cell_df.T),
+                                        np.array(cell_df.T.columns), 
+                                        prompt_prefix='',
+                                        trunc_index=N_TRUNC_GENE)
+
+    with open('data.txt', 'w') as f:
+        for item in sample_cells_data:
+            f.write(f'{item}\n')

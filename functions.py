@@ -78,13 +78,39 @@ def get_gpt_embedding(text, model="text-embedding-ada-002"):
 
 
 def write_gpt_file(cell_df, num_unique_cells, N_TRUNC_GENE):
+    """
+    Write the top N_TRUNC_GENE maker genes for each cell to a file
+    """
     assert len(np.unique(np.array([cell.split('.')[0] for cell in cell_df.T.index]))) == num_unique_cells
 
-    sample_cells_data = get_seq_embed_gpt(np.array(cell_df.T),
-                                        np.array(cell_df.T.columns), 
-                                        prompt_prefix='',
-                                        trunc_index=N_TRUNC_GENE)
+    cell_data = get_seq_embed_gpt(np.array(cell_df.T), # Cells as rows and genes as columns
+                                  np.array(cell_df.T.columns), 
+                                  prompt_prefix='',
+                                  trunc_index=N_TRUNC_GENE)
 
     with open('data.txt', 'w') as f:
-        for item in sample_cells_data:
+        for item in cell_data:
             f.write(f'{item}\n')
+
+
+def get_genept_embeddings(cell_df, N_TRUNC_GENE):
+    """
+    Return GenePT-s embeddings for each cell in a dataframe
+    """
+    cell_df = cell_df.T # Cells as rows and genes as columns
+    cell_matrix = np.array(cell_df.T)
+
+    cell_data = get_seq_embed_gpt(cell_matrix,
+                                  np.array(cell_df.columns), 
+                                  prompt_prefix='A cell with genes ranked by expression: ',
+                                  trunc_index=N_TRUNC_GENE)
+
+    cell_gpt_data = []
+
+    for x in cell_data:
+        cell_gpt_data.append(get_gpt_embedding(x))
+
+    cell_gpt_data = np.array(cell_gpt_data)
+    cell_gpt_df = pd.DataFrame(data=cell_gpt_data)
+    cell_gpt_df.index = cell_df.index
+    return cell_gpt_df

@@ -25,7 +25,6 @@ original <- RunUMAP(original, dims=1:10)
 print(paste('Original matrix dimensions', dim(original_df)[1], 'x', dim(original_df)[2]))
 print(paste('Seurat matrix dimensions', dim(original$RNA$counts)[1], 'x', dim(original$RNA$counts)[2]))
 
-
 # Assign cell types to each cluster
 result <- run_sctype(
     original,

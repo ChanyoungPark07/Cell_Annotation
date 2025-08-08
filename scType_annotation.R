@@ -34,4 +34,4 @@ result <- run_sctype(
     plot=TRUE);
 
 # Save results
-write.csv(result@meta.data, file='simulated_sctype_classification.csv', row.names=TRUE)
+write.csv(result@meta.data, file='original_sctype_classification.csv', row.names=TRUE)

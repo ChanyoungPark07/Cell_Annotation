@@ -146,6 +146,7 @@ def write_gpt_name_resolver(resolver_df, save_path, original_lst, output_lst, ke
             else:
                 response = client.responses.create(
                     model='gpt-4o',
+                    temperature=0,
                     input=f'Are {output_cell} the same or a type of {original_cell} cell? Respond only with a confidence score between integer 0 and 10.'
                     )
                 resolver_df.loc[(output_cell, original_cell), column_name] = int(response.output[0].content[0].text)

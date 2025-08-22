@@ -129,7 +129,8 @@ def NameResolver_match(original_df, gpt_output_file):
 
 def write_gpt_name_resolver(resolver_df, save_path, original_lst, output_lst, key):
     """
-    Write OpenAI's GPT-4o name resolver pairs and similarities to dataframe and save as csv
+    Write OpenAI's GPT-4o name resolver pairs and similarities to dataframe and save as csv. 
+    The dataframe must have one column for the score and be multi-indexed (output_cell, original_cell)
     """
     client = OpenAI(api_key=key)
     original_set = set(original_lst)

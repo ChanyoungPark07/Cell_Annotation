@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import requests
+from openai import OpenAI
 import urllib.parse
 from tqdm import tqdm
 from transformers import AutoTokenizer, AutoModel 
@@ -124,3 +125,28 @@ def NameResolver_match(original_df, gpt_output_file):
             accuracy_count += 1
 
     print(f'Accuracy of GPT-4 Cell Type Annotation: {accuracy_count / len(gpt_cell_lst) * 100:.2f}%')
+
+
+def write_gpt_name_resolver(resolver_df, save_path, original_lst, output_lst, key):
+    """
+    Write OpenAI's GPT-4o name resolver pairs and similarities to dataframe and save as csv
+    """
+    client = OpenAI(api_key=key)
+    original_set = set(original_lst)
+    output_set = set(output_lst)
+    column_name = resolver_df.columns[0]
+
+    for original_cell in original_set:
+        for output_cell in output_set:
+            pair = (output_cell, original_cell)
+            
+            if pair in resolver_df.index:
+                print(f'The cell pair {pair} already exists')
+            else:
+                response = client.responses.create(
+                    model='gpt-4o',
+                    input=f'Are {output_cell} the same or a type of {original_cell} cell? Respond only with a confidence score between integer 0 and 10.'
+                    )
+                resolver_df.loc[(output_cell, original_cell), column_name] = int(response.output[0].content[0].text)
+
+    resolver_df.to_csv(save_path)

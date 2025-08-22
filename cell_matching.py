@@ -151,3 +151,31 @@ def write_gpt_name_resolver(resolver_df, save_path, original_lst, output_lst, ke
                 resolver_df.loc[(output_cell, original_cell), column_name] = int(response.output[0].content[0].text)
 
     resolver_df.to_csv(save_path)
+
+
+def NameResolver_match(original_df, gpt_output_file, key):
+    """
+    Prints accuracy using gpt-4o
+    """
+    original_cell_lst = [cell.split('.')[0] for cell in original_df.T.index]
+    accuracy_count = 0
+
+    # Original write to the gpt resolver dataframe
+    # empty_df = pd.DataFrame(index=pd.MultiIndex.from_tuples([], names=['output_cell', 'original_cell']), columns=['similarity_score'])
+    # write_gpt_name_resolver(empty_df, 'gpt_resolver_df.csv', original_cell_lst, gpt_output_file, key)
+    
+    # Use the existing gpt resolver dataframe
+    gpt_resolver_df = pd.read_csv('gpt_resolver_df.csv').set_index(['output_cell', 'original_cell'])
+    write_gpt_name_resolver(gpt_resolver_df, 'gpt_resolver_df.csv', original_cell_lst, gpt_output_file, key)
+    gpt_resolver_df = pd.read_csv('gpt_resolver_df.csv').set_index(['output_cell', 'original_cell'])
+
+    for i in range(len(gpt_output_file)):
+        original_cell = original_cell_lst[i]
+        output_cell = gpt_output_file[i]
+        pair = (output_cell, original_cell)
+        similarity_score = gpt_resolver_df.loc[pair]['similarity_score']
+        
+        if similarity_score >= 9:
+            accuracy_count += 1
+
+    print(f'Accuracy of scType Cell Type Annotation: {accuracy_count / len(gpt_output_file) * 100:.2f}%')

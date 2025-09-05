@@ -1,0 +1,52 @@
+# SapBERT Resolver correct and incorrect annotations respectively
+
+{'Memory CD4 T': {'CD4+ T': 476},
+ 'NK': {'NK': 154},
+ 'B': {'B': 25},
+ 'CD8 T': {'CD8+ T': 2}}
+ 
+{'B': {'CD4+ T': 319},
+ 'CD14+ Mono': {'Monocyte': 475, 'NK': 1, 'CD4+ T': 3, 'Dendritic': 2},
+ 'CD8 T': {'CD4+ T': 157, 'NK': 132},
+ 'FCGR3A+ Mono': {'Dendritic': 63, 'NK': 34, 'Monocyte': 48, 'CD4+ T': 17},
+ 'Naive CD4 T': {'CD4+ T': 684},
+ 'DC': {'Monocyte': 29, 'CD4+ T': 3},
+ 'Platelet': {'Megakaryocyte': 10, 'Dendritic': 3},
+ 'NK': {'CD4+ T': 1}}
+
+
+ # Translator correct and incorrect annotations respectively
+
+{'NK': {'NK': 154},
+ 'Naive CD4 T': {'CD4+ T': 684},
+ 'B': {'B': 25},
+ 'CD8 T': {'CD8+ T': 2}}
+
+{'Memory CD4 T': {'CD4+ T': 476},
+ 'B': {'CD4+ T': 319},
+ 'CD14+ Mono': {'Monocyte': 475, 'NK': 1, 'CD4+ T': 3, 'Dendritic': 2},
+ 'CD8 T': {'CD4+ T': 157, 'NK': 132},
+ 'FCGR3A+ Mono': {'Dendritic': 63, 'NK': 34, 'Monocyte': 48, 'CD4+ T': 17},
+ 'DC': {'Monocyte': 29, 'CD4+ T': 3},
+ 'Platelet': {'Megakaryocyte': 10, 'Dendritic': 3},
+ 'NK': {'CD4+ T': 1}}
+
+
+ # GPT‑5 Resolver correct and incorrect annotations respectively
+
+{'Memory CD4 T': {'CD4+ T': 476},
+ 'CD14+ Mono': {'Monocyte': 475},
+ 'NK': {'NK': 154},
+ 'Naive CD4 T': {'CD4+ T': 684},
+ 'B': {'B': 25},
+ 'FCGR3A+ Mono': {'Monocyte': 48},
+ 'Platelet': {'Megakaryocyte': 10},
+ 'CD8 T': {'CD8+ T': 2}}
+ 
+{'B': {'CD4+ T': 319},
+ 'CD8 T': {'CD4+ T': 157, 'NK': 132},
+ 'FCGR3A+ Mono': {'Dendritic': 63, 'NK': 34, 'CD4+ T': 17},
+ 'DC': {'Monocyte': 29, 'CD4+ T': 3},
+ 'CD14+ Mono': {'NK': 1, 'CD4+ T': 3, 'Dendritic': 2},
+ 'Platelet': {'Dendritic': 3},
+ 'NK': {'CD4+ T': 1}}

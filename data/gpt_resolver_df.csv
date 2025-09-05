@@ -1,289 +1,631 @@
 output_cell,original_cell,similarity_score
-Platelets,CD8 T,0.0
-Memory CD4+ T,CD8 T,2.0
-Myeloid Dendritic,CD8 T,0.0
-Naive CD8+ T,CD8 T,2.0
-Natural killer,CD8 T,2.0
-Non-classical monocytes,CD8 T,0.0
-Classical Monocytes,CD8 T,1.0
-Naive B,CD8 T,2.0
-CD8+ NKT-like,CD8 T,2.0
-Platelets,B,0.0
-Memory CD4+ T,B,0.0
-Myeloid Dendritic,B,1.0
-Naive CD8+ T,B,0.0
-Natural killer,B,2.0
-Non-classical monocytes,B,0.0
-Classical Monocytes,B,0.0
-Naive B,B,2.0
-CD8+ NKT-like,B,0.0
-Platelets,NK,0.0
-Memory CD4+ T,NK,0.0
-Myeloid Dendritic,NK,0.0
-Naive CD8+ T,NK,0.0
-Natural killer,NK,5.0
-Non-classical monocytes,NK,0.0
-Classical Monocytes,NK,0.0
-Naive B,NK,2.0
-CD8+ NKT-like,NK,1.0
-Platelets,Memory CD4 T,0.0
-Memory CD4+ T,Memory CD4 T,5.0
-Myeloid Dendritic,Memory CD4 T,1.0
-Naive CD8+ T,Memory CD4 T,1.0
-Natural killer,Memory CD4 T,1.0
-Non-classical monocytes,Memory CD4 T,0.0
-Classical Monocytes,Memory CD4 T,0.0
-Naive B,Memory CD4 T,1.0
-CD8+ NKT-like,Memory CD4 T,1.0
-Platelets,DC,1.0
-Memory CD4+ T,DC,0.0
-Myeloid Dendritic,DC,2.0
-Naive CD8+ T,DC,1.0
-Natural killer,DC,1.0
-Non-classical monocytes,DC,1.0
-Classical Monocytes,DC,2.0
-Naive B,DC,1.0
-CD8+ NKT-like,DC,0.0
-Platelets,FCGR3A+ Mono,0.0
-Memory CD4+ T,FCGR3A+ Mono,1.0
-Myeloid Dendritic,FCGR3A+ Mono,2.0
-Naive CD8+ T,FCGR3A+ Mono,0.0
-Natural killer,FCGR3A+ Mono,1.0
-Non-classical monocytes,FCGR3A+ Mono,5.0
-Classical Monocytes,FCGR3A+ Mono,2.0
-Naive B,FCGR3A+ Mono,0.0
+Myeloid Dendritic,FCGR3A+ Mono,0.0
 CD8+ NKT-like,FCGR3A+ Mono,0.0
-Platelets,Naive CD4 T,0.0
-Memory CD4+ T,Naive CD4 T,2.0
+Classical Monocytes,FCGR3A+ Mono,0.0
+Platelets,FCGR3A+ Mono,0.0
+Naive B,FCGR3A+ Mono,0.0
+Non-classical monocytes,FCGR3A+ Mono,5.0
+Naive CD8+ T,FCGR3A+ Mono,0.0
+Natural killer,FCGR3A+ Mono,0.0
+Memory CD4+ T,FCGR3A+ Mono,0.0
+Myeloid Dendritic,CD8 T,0.0
+CD8+ NKT-like,CD8 T,0.0
+Classical Monocytes,CD8 T,0.0
+Platelets,CD8 T,0.0
+Naive B,CD8 T,0.0
+Non-classical monocytes,CD8 T,0.0
+Naive CD8+ T,CD8 T,0.0
+Natural killer,CD8 T,0.0
+Memory CD4+ T,CD8 T,0.0
+Myeloid Dendritic,B,0.0
+CD8+ NKT-like,B,0.0
+Classical Monocytes,B,0.0
+Platelets,B,0.0
+Naive B,B,0.0
+Non-classical monocytes,B,0.0
+Naive CD8+ T,B,0.0
+Natural killer,B,0.0
+Memory CD4+ T,B,0.0
+Myeloid Dendritic,DC,0.0
+CD8+ NKT-like,DC,0.0
+Classical Monocytes,DC,0.0
+Platelets,DC,0.0
+Naive B,DC,0.0
+Non-classical monocytes,DC,0.0
+Naive CD8+ T,DC,0.0
+Natural killer,DC,0.0
+Memory CD4+ T,DC,0.0
+Myeloid Dendritic,Memory CD4 T,0.0
+CD8+ NKT-like,Memory CD4 T,0.0
+Classical Monocytes,Memory CD4 T,0.0
+Platelets,Memory CD4 T,0.0
+Naive B,Memory CD4 T,0.0
+Non-classical monocytes,Memory CD4 T,0.0
+Naive CD8+ T,Memory CD4 T,0.0
+Natural killer,Memory CD4 T,0.0
+Memory CD4+ T,Memory CD4 T,5.0
 Myeloid Dendritic,Naive CD4 T,0.0
-Naive CD8+ T,Naive CD4 T,2.0
-Natural killer,Naive CD4 T,1.0
-Non-classical monocytes,Naive CD4 T,0.0
-Classical Monocytes,Naive CD4 T,0.0
-Naive B,Naive CD4 T,1.0
 CD8+ NKT-like,Naive CD4 T,0.0
-Platelets,CD14+ Mono,1.0
-Memory CD4+ T,CD14+ Mono,0.0
-Myeloid Dendritic,CD14+ Mono,2.0
+Classical Monocytes,Naive CD4 T,0.0
+Platelets,Naive CD4 T,0.0
+Naive B,Naive CD4 T,0.0
+Non-classical monocytes,Naive CD4 T,0.0
+Naive CD8+ T,Naive CD4 T,0.0
+Natural killer,Naive CD4 T,0.0
+Memory CD4+ T,Naive CD4 T,0.0
+Myeloid Dendritic,CD14+ Mono,0.0
+CD8+ NKT-like,CD14+ Mono,0.0
+Classical Monocytes,CD14+ Mono,5.0
+Platelets,CD14+ Mono,0.0
+Naive B,CD14+ Mono,0.0
+Non-classical monocytes,CD14+ Mono,0.0
 Naive CD8+ T,CD14+ Mono,0.0
 Natural killer,CD14+ Mono,0.0
-Non-classical monocytes,CD14+ Mono,2.0
-Classical Monocytes,CD14+ Mono,5.0
-Naive B,CD14+ Mono,0.0
-CD8+ NKT-like,CD14+ Mono,0.0
-Platelets,Platelet,5.0
-Memory CD4+ T,Platelet,0.0
-Myeloid Dendritic,Platelet,1.0
-Naive CD8+ T,Platelet,0.0
-Natural killer,Platelet,1.0
-Non-classical monocytes,Platelet,0.0
-Classical Monocytes,Platelet,0.0
-Naive B,Platelet,0.0
+Memory CD4+ T,CD14+ Mono,0.0
+Myeloid Dendritic,NK,0.0
+CD8+ NKT-like,NK,0.0
+Classical Monocytes,NK,0.0
+Platelets,NK,0.0
+Naive B,NK,0.0
+Non-classical monocytes,NK,0.0
+Naive CD8+ T,NK,0.0
+Natural killer,NK,5.0
+Memory CD4+ T,NK,0.0
+Myeloid Dendritic,Platelet,0.0
 CD8+ NKT-like,Platelet,0.0
-Macrophages,CD8 T,2.0
-Megakaryocyte,CD8 T,0.0
-Plasmacytoid Dendritic,CD8 T,0.0
-Macrophages,B,2.0
-Megakaryocyte,B,0.0
-Plasmacytoid Dendritic,B,1.0
-Macrophages,NK,1.0
-Megakaryocyte,NK,1.0
-Plasmacytoid Dendritic,NK,1.0
-Macrophages,Memory CD4 T,1.0
-Megakaryocyte,Memory CD4 T,0.0
-Plasmacytoid Dendritic,Memory CD4 T,0.0
-Macrophages,DC,2.0
-Megakaryocyte,DC,1.0
-Plasmacytoid Dendritic,DC,2.0
-Macrophages,FCGR3A+ Mono,2.0
+Classical Monocytes,Platelet,0.0
+Platelets,Platelet,5.0
+Naive B,Platelet,0.0
+Non-classical monocytes,Platelet,0.0
+Naive CD8+ T,Platelet,0.0
+Natural killer,Platelet,0.0
+Memory CD4+ T,Platelet,0.0
+Macrophages,FCGR3A+ Mono,0.0
+Plasmacytoid Dendritic,FCGR3A+ Mono,0.0
 Megakaryocyte,FCGR3A+ Mono,0.0
-Plasmacytoid Dendritic,FCGR3A+ Mono,2.0
-Macrophages,Naive CD4 T,1.0
+Macrophages,CD8 T,0.0
+Plasmacytoid Dendritic,CD8 T,0.0
+Megakaryocyte,CD8 T,0.0
+Macrophages,B,0.0
+Plasmacytoid Dendritic,B,0.0
+Megakaryocyte,B,0.0
+Macrophages,DC,0.0
+Plasmacytoid Dendritic,DC,0.0
+Megakaryocyte,DC,0.0
+Macrophages,Memory CD4 T,0.0
+Plasmacytoid Dendritic,Memory CD4 T,0.0
+Megakaryocyte,Memory CD4 T,0.0
+Macrophages,Naive CD4 T,0.0
+Plasmacytoid Dendritic,Naive CD4 T,0.0
 Megakaryocyte,Naive CD4 T,0.0
-Plasmacytoid Dendritic,Naive CD4 T,1.0
-Macrophages,CD14+ Mono,2.0
-Megakaryocyte,CD14+ Mono,1.0
-Plasmacytoid Dendritic,CD14+ Mono,1.0
+Macrophages,CD14+ Mono,0.0
+Plasmacytoid Dendritic,CD14+ Mono,0.0
+Megakaryocyte,CD14+ Mono,0.0
+Macrophages,NK,0.0
+Plasmacytoid Dendritic,NK,0.0
+Megakaryocyte,NK,0.0
 Macrophages,Platelet,0.0
-Megakaryocyte,Platelet,2.0
-Plasmacytoid Dendritic,Platelet,2.0
-Monocyte,CD8 T,1.0
-B,CD8 T,2.0
-CD4+ T,CD8 T,2.0
-NK,CD8 T,2.0
-Other,CD8 T,1.0
-Platelet,CD8 T,0.0
-Dendritic,CD8 T,2.0
-Monocyte,B,1.0
-B,B,5.0
-CD4+ T,B,0.0
-NK,B,1.0
-Other,B,0.0
-Platelet,B,0.0
-Dendritic,B,1.0
-Monocyte,NK,1.0
-B,NK,1.0
-CD4+ T,NK,1.0
-NK,NK,5.0
-Other,NK,1.0
-Platelet,NK,0.0
-Dendritic,NK,2.0
-Monocyte,Memory CD4 T,0.0
-B,Memory CD4 T,1.0
-CD4+ T,Memory CD4 T,4.0
-NK,Memory CD4 T,1.0
-Other,Memory CD4 T,0.0
-Platelet,Memory CD4 T,0.0
-Dendritic,Memory CD4 T,0.0
-Monocyte,DC,2.0
-B,DC,1.0
-CD4+ T,DC,0.0
-NK,DC,2.0
-Other,DC,1.0
-Platelet,DC,0.0
-Dendritic,DC,5.0
+Plasmacytoid Dendritic,Platelet,0.0
+Megakaryocyte,Platelet,4.0
 Monocyte,FCGR3A+ Mono,4.0
 B,FCGR3A+ Mono,0.0
 CD4+ T,FCGR3A+ Mono,0.0
+Dendritic,FCGR3A+ Mono,0.0
 NK,FCGR3A+ Mono,0.0
-Other,FCGR3A+ Mono,0.0
-Platelet,FCGR3A+ Mono,0.0
-Dendritic,FCGR3A+ Mono,2.0
-Monocyte,Naive CD4 T,1.0
+Plasmacytoid DC,FCGR3A+ Mono,0.0
+Monocyte,CD8 T,0.0
+B,CD8 T,0.0
+CD4+ T,CD8 T,0.0
+Dendritic,CD8 T,0.0
+NK,CD8 T,0.0
+Plasmacytoid DC,CD8 T,0.0
+Monocyte,B,0.0
+B,B,5.0
+CD4+ T,B,0.0
+Dendritic,B,0.0
+NK,B,0.0
+Plasmacytoid DC,B,0.0
+Monocyte,DC,0.0
+B,DC,0.0
+CD4+ T,DC,0.0
+Dendritic,DC,5.0
+NK,DC,0.0
+Plasmacytoid DC,DC,0.0
+Monocyte,Memory CD4 T,0.0
+B,Memory CD4 T,0.0
+CD4+ T,Memory CD4 T,4.0
+Dendritic,Memory CD4 T,0.0
+NK,Memory CD4 T,0.0
+Plasmacytoid DC,Memory CD4 T,0.0
+Monocyte,Naive CD4 T,0.0
 B,Naive CD4 T,0.0
 CD4+ T,Naive CD4 T,4.0
-NK,Naive CD4 T,1.0
-Other,Naive CD4 T,0.0
-Platelet,Naive CD4 T,0.0
 Dendritic,Naive CD4 T,0.0
+NK,Naive CD4 T,0.0
+Plasmacytoid DC,Naive CD4 T,0.0
 Monocyte,CD14+ Mono,4.0
 B,CD14+ Mono,0.0
-CD4+ T,CD14+ Mono,1.0
-NK,CD14+ Mono,1.0
-Other,CD14+ Mono,0.0
-Platelet,CD14+ Mono,0.0
-Dendritic,CD14+ Mono,2.0
-Monocyte,Platelet,1.0
-B,Platelet,1.0
+CD4+ T,CD14+ Mono,0.0
+Dendritic,CD14+ Mono,0.0
+NK,CD14+ Mono,0.0
+Plasmacytoid DC,CD14+ Mono,0.0
+Monocyte,NK,0.0
+B,NK,0.0
+CD4+ T,NK,0.0
+Dendritic,NK,0.0
+NK,NK,5.0
+Plasmacytoid DC,NK,0.0
+Monocyte,Platelet,0.0
+B,Platelet,0.0
 CD4+ T,Platelet,0.0
-NK,Platelet,0.0
-Other,Platelet,1.0
-Platelet,Platelet,5.0
 Dendritic,Platelet,0.0
-Unclassified,CD8 T,0.0
-T,CD8 T,4.0
-Unclassified,B,0.0
-T,B,2.0
-Unclassified,NK,0.0
-T,NK,2.0
-Unclassified,Memory CD4 T,0.0
-T,Memory CD4 T,4.0
-Unclassified,DC,0.0
-T,DC,2.0
-Unclassified,FCGR3A+ Mono,0.0
-T,FCGR3A+ Mono,0.0
-Unclassified,Naive CD4 T,0.0
-T,Naive CD4 T,4.0
-Unclassified,CD14+ Mono,1.0
-T,CD14+ Mono,0.0
-Unclassified,Platelet,0.0
-T,Platelet,0.0
-CD8+ T,CD8 T,5.0
-CD8+ T,B,2.0
-CD8+ T,NK,2.0
-CD8+ T,Memory CD4 T,2.0
-CD8+ T,DC,1.0
+NK,Platelet,0.0
+Plasmacytoid DC,Platelet,0.0
+Platelet,FCGR3A+ Mono,0.0
+Platelet,CD8 T,0.0
+Platelet,B,0.0
+Platelet,DC,0.0
+Platelet,Memory CD4 T,0.0
+Platelet,Naive CD4 T,0.0
+Platelet,CD14+ Mono,0.0
+Platelet,NK,0.0
+Platelet,Platelet,5.0
 CD8+ T,FCGR3A+ Mono,0.0
-CD8+ T,Naive CD4 T,2.0
+CD8+ T,CD8 T,5.0
+CD8+ T,B,0.0
+CD8+ T,DC,0.0
+CD8+ T,Memory CD4 T,0.0
+CD8+ T,Naive CD4 T,0.0
 CD8+ T,CD14+ Mono,0.0
+CD8+ T,NK,0.0
 CD8+ T,Platelet,0.0
-CD14 Monocyte,CD8 T,1.0
-CD8 T,CD8 T,5.0
-CD14 Monocyte,B,0.0
-CD8 T,B,2.0
-CD14 Monocyte,NK,0.0
-CD8 T,NK,2.0
-CD14 Monocyte,Memory CD4 T,0.0
-CD8 T,Memory CD4 T,1.0
-CD14 Monocyte,DC,2.0
-CD8 T,DC,2.0
-CD14 Monocyte,FCGR3A+ Mono,1.0
-CD8 T,FCGR3A+ Mono,0.0
-CD14 Monocyte,Naive CD4 T,0.0
-CD8 T,Naive CD4 T,2.0
-CD14 Monocyte,CD14+ Mono,5.0
-CD8 T,CD14+ Mono,0.0
-CD14 Monocyte,Platelet,0.0
-CD8 T,Platelet,0.0
-Erythroid,CD8 T,0.0
-Plasma,CD8 T,2.0
-Erythroid,B,0.0
-Plasma,B,2.0
-Erythroid,NK,1.0
-Plasma,NK,1.0
-Erythroid,Memory CD4 T,0.0
-Plasma,Memory CD4 T,1.0
-Erythroid,DC,0.0
-Plasma,DC,2.0
-Erythroid,FCGR3A+ Mono,0.0
+General PBMC,FCGR3A+ Mono,2.0
+T,FCGR3A+ Mono,0.0
+General PBMC,CD8 T,2.0
+T,CD8 T,4.0
+General PBMC,B,2.0
+T,B,0.0
+General PBMC,DC,2.0
+T,DC,0.0
+General PBMC,Memory CD4 T,2.0
+T,Memory CD4 T,3.0
+General PBMC,Naive CD4 T,2.0
+T,Naive CD4 T,4.0
+General PBMC,CD14+ Mono,2.0
+T,CD14+ Mono,0.0
+General PBMC,NK,2.0
+T,NK,0.0
+General PBMC,Platelet,0.0
+T,Platelet,0.0
+Ts,FCGR3A+ Mono,0.0
+Bs,FCGR3A+ Mono,0.0
+NKs,FCGR3A+ Mono,0.0
+Monocytes,FCGR3A+ Mono,4.0
+Megakaryocytes,FCGR3A+ Mono,0.0
+Dendritics,FCGR3A+ Mono,0.0
+Ts,CD8 T,5.0
+Bs,CD8 T,0.0
+NKs,CD8 T,0.0
+Monocytes,CD8 T,0.0
+Megakaryocytes,CD8 T,0.0
+Dendritics,CD8 T,0.0
+Ts,B,0.0
+Bs,B,5.0
+NKs,B,0.0
+Monocytes,B,0.0
+Megakaryocytes,B,0.0
+Dendritics,B,0.0
+Ts,DC,0.0
+Bs,DC,0.0
+NKs,DC,0.0
+Monocytes,DC,0.0
+Megakaryocytes,DC,0.0
+Dendritics,DC,5.0
+Ts,Memory CD4 T,0.0
+Bs,Memory CD4 T,0.0
+NKs,Memory CD4 T,0.0
+Monocytes,Memory CD4 T,0.0
+Megakaryocytes,Memory CD4 T,0.0
+Dendritics,Memory CD4 T,0.0
+Ts,Naive CD4 T,0.0
+Bs,Naive CD4 T,0.0
+NKs,Naive CD4 T,0.0
+Monocytes,Naive CD4 T,0.0
+Megakaryocytes,Naive CD4 T,0.0
+Dendritics,Naive CD4 T,0.0
+Ts,CD14+ Mono,0.0
+Bs,CD14+ Mono,0.0
+NKs,CD14+ Mono,0.0
+Monocytes,CD14+ Mono,4.0
+Megakaryocytes,CD14+ Mono,0.0
+Dendritics,CD14+ Mono,0.0
+Ts,NK,0.0
+Bs,NK,0.0
+NKs,NK,5.0
+Monocytes,NK,0.0
+Megakaryocytes,NK,0.0
+Dendritics,NK,0.0
+Ts,Platelet,0.0
+Bs,Platelet,0.0
+NKs,Platelet,0.0
+Monocytes,Platelet,0.0
+Megakaryocytes,Platelet,4.0
+Dendritics,Platelet,0.0
+Other T,FCGR3A+ Mono,0.0
+pDC,FCGR3A+ Mono,0.0
+Other T,CD8 T,0.0
+pDC,CD8 T,0.0
+Other T,B,0.0
+pDC,B,0.0
+Other T,DC,0.0
+pDC,DC,0.0
+Other T,Memory CD4 T,0.0
+pDC,Memory CD4 T,0.0
+Other T,Naive CD4 T,2.0
+pDC,Naive CD4 T,0.0
+Other T,CD14+ Mono,0.0
+pDC,CD14+ Mono,0.0
+Other T,NK,0.0
+pDC,NK,0.0
+Other T,Platelet,0.0
+pDC,Platelet,0.0
+MAIT,FCGR3A+ Mono,0.0
 Plasma,FCGR3A+ Mono,0.0
-Erythroid,Naive CD4 T,0.0
+MAIT,CD8 T,0.0
+Plasma,CD8 T,0.0
+MAIT,B,0.0
+Plasma,B,0.0
+MAIT,DC,0.0
+Plasma,DC,0.0
+MAIT,Memory CD4 T,0.0
+Plasma,Memory CD4 T,0.0
+MAIT,Naive CD4 T,0.0
 Plasma,Naive CD4 T,0.0
-Erythroid,CD14+ Mono,2.0
+MAIT,CD14+ Mono,0.0
 Plasma,CD14+ Mono,0.0
-Erythroid,Platelet,1.0
+MAIT,NK,0.0
+Plasma,NK,0.0
+MAIT,Platelet,0.0
 Plasma,Platelet,0.0
-Monocyte (CD16+),CD8 T,0.0
-T (unspecified),CD8 T,4.0
-Other PBMC,CD8 T,3.0
-Monocyte (CD14+),CD8 T,0.0
-Monocyte (CD16+),B,0.0
-T (unspecified),B,2.0
-Other PBMC,B,0.0
-Monocyte (CD14+),B,1.0
-Monocyte (CD16+),NK,1.0
-T (unspecified),NK,2.0
-Other PBMC,NK,4.0
-Monocyte (CD14+),NK,1.0
-Monocyte (CD16+),Memory CD4 T,0.0
-T (unspecified),Memory CD4 T,4.0
-Other PBMC,Memory CD4 T,3.0
-Monocyte (CD14+),Memory CD4 T,0.0
-Monocyte (CD16+),DC,2.0
-T (unspecified),DC,1.0
-Other PBMC,DC,4.0
-Monocyte (CD14+),DC,2.0
-Monocyte (CD16+),FCGR3A+ Mono,5.0
-T (unspecified),FCGR3A+ Mono,0.0
-Other PBMC,FCGR3A+ Mono,3.0
-Monocyte (CD14+),FCGR3A+ Mono,1.0
-Monocyte (CD16+),Naive CD4 T,0.0
-T (unspecified),Naive CD4 T,4.0
-Other PBMC,Naive CD4 T,2.0
-Monocyte (CD14+),Naive CD4 T,0.0
-Monocyte (CD16+),CD14+ Mono,2.0
-T (unspecified),CD14+ Mono,0.0
-Other PBMC,CD14+ Mono,3.0
-Monocyte (CD14+),CD14+ Mono,5.0
-Monocyte (CD16+),Platelet,0.0
-T (unspecified),Platelet,0.0
-Other PBMC,Platelet,1.0
-Monocyte (CD14+),Platelet,1.0
-CD4 T,CD8 T,2.0
-Erythrocyte,CD8 T,0.0
-CD4 T,B,1.0
-Erythrocyte,B,1.0
-CD4 T,NK,1.0
-Erythrocyte,NK,1.0
-CD4 T,Memory CD4 T,4.0
-Erythrocyte,Memory CD4 T,2.0
-CD4 T,DC,1.0
-Erythrocyte,DC,1.0
+CD8 T,FCGR3A+ Mono,0.0
 CD4 T,FCGR3A+ Mono,0.0
-Erythrocyte,FCGR3A+ Mono,0.0
+CD8 T,CD8 T,5.0
+CD4 T,CD8 T,0.0
+CD8 T,B,0.0
+CD4 T,B,0.0
+CD8 T,DC,0.0
+CD4 T,DC,0.0
+CD8 T,Memory CD4 T,0.0
+CD4 T,Memory CD4 T,4.0
+CD8 T,Naive CD4 T,0.0
 CD4 T,Naive CD4 T,4.0
-Erythrocyte,Naive CD4 T,0.0
+CD8 T,CD14+ Mono,0.0
 CD4 T,CD14+ Mono,0.0
-Erythrocyte,CD14+ Mono,1.0
+CD8 T,NK,0.0
+CD4 T,NK,0.0
+CD8 T,Platelet,0.0
 CD4 T,Platelet,0.0
-Erythrocyte,Platelet,1.0
+Other,FCGR3A+ Mono,0.0
+Other,CD8 T,2.0
+Other,B,2.0
+Other,DC,0.0
+Other,Memory CD4 T,2.0
+Other,Naive CD4 T,2.0
+Other,CD14+ Mono,0.0
+Other,NK,0.0
+Other,Platelet,2.0
+Memory T,FCGR3A+ Mono,0.0
+Naive T,FCGR3A+ Mono,0.0
+Memory T,CD8 T,0.0
+Naive T,CD8 T,0.0
+Memory T,B,0.0
+Naive T,B,0.0
+Memory T,DC,0.0
+Naive T,DC,0.0
+Memory T,Memory CD4 T,4.0
+Naive T,Memory CD4 T,0.0
+Memory T,Naive CD4 T,0.0
+Naive T,Naive CD4 T,4.0
+Memory T,CD14+ Mono,0.0
+Naive T,CD14+ Mono,0.0
+Memory T,NK,0.0
+Naive T,NK,0.0
+Memory T,Platelet,0.0
+Naive T,Platelet,0.0
+Natural Killer,FCGR3A+ Mono,0.0
+Natural Killer,CD8 T,0.0
+Natural Killer,B,0.0
+Natural Killer,DC,0.0
+Natural Killer,Memory CD4 T,0.0
+Natural Killer,Naive CD4 T,0.0
+Natural Killer,CD14+ Mono,0.0
+Natural Killer,NK,5.0
+Natural Killer,Platelet,0.0
+Regulatory T,FCGR3A+ Mono,0.0
+Gamma-delta T,FCGR3A+ Mono,0.0
+Regulatory T,CD8 T,0.0
+Gamma-delta T,CD8 T,0.0
+Regulatory T,B,0.0
+Gamma-delta T,B,0.0
+Regulatory T,DC,0.0
+Gamma-delta T,DC,0.0
+Regulatory T,Memory CD4 T,0.0
+Gamma-delta T,Memory CD4 T,0.0
+Regulatory T,Naive CD4 T,0.0
+Gamma-delta T,Naive CD4 T,0.0
+Regulatory T,CD14+ Mono,0.0
+Gamma-delta T,CD14+ Mono,0.0
+Regulatory T,NK,0.0
+Gamma-delta T,NK,0.0
+Regulatory T,Platelet,0.0
+Gamma-delta T,Platelet,0.0
+FCGR3A+ Monocyte,FCGR3A+ Mono,5.0
+Unassigned (Housekeeping),FCGR3A+ Mono,0.0
+FCGR3A+ Monocyte,CD8 T,0.0
+Unassigned (Housekeeping),CD8 T,0.0
+FCGR3A+ Monocyte,B,0.0
+Unassigned (Housekeeping),B,0.0
+FCGR3A+ Monocyte,DC,0.0
+Unassigned (Housekeeping),DC,0.0
+FCGR3A+ Monocyte,Memory CD4 T,0.0
+Unassigned (Housekeeping),Memory CD4 T,0.0
+FCGR3A+ Monocyte,Naive CD4 T,0.0
+Unassigned (Housekeeping),Naive CD4 T,0.0
+FCGR3A+ Monocyte,CD14+ Mono,0.0
+Unassigned (Housekeeping),CD14+ Mono,0.0
+FCGR3A+ Monocyte,NK,0.0
+Unassigned (Housekeeping),NK,0.0
+FCGR3A+ Monocyte,Platelet,0.0
+Unassigned (Housekeeping),Platelet,0.0
+Cytotoxic T,FCGR3A+ Mono,0.0
+Cytotoxic T,CD8 T,5.0
+Cytotoxic T,B,0.0
+Cytotoxic T,DC,0.0
+Cytotoxic T,Memory CD4 T,0.0
+Cytotoxic T,Naive CD4 T,0.0
+Cytotoxic T,CD14+ Mono,0.0
+Cytotoxic T,NK,0.0
+Cytotoxic T,Platelet,0.0
+Erythrocyte,FCGR3A+ Mono,0.0
+Erythrocyte,CD8 T,0.0
+Erythrocyte,B,0.0
+Erythrocyte,DC,0.0
+Erythrocyte,Memory CD4 T,0.0
+Erythrocyte,Naive CD4 T,0.0
+Erythrocyte,CD14+ Mono,0.0
+Erythrocyte,NK,0.0
+Erythrocyte,Platelet,0.0
+Other PBMC,FCGR3A+ Mono,2.0
+Other PBMC,CD8 T,2.0
+Other PBMC,B,2.0
+Other PBMC,DC,2.0
+Other PBMC,Memory CD4 T,2.0
+Other PBMC,Naive CD4 T,2.0
+Other PBMC,CD14+ Mono,2.0
+Other PBMC,NK,2.0
+Other PBMC,Platelet,0.0
+Non-classical Monocyte,FCGR3A+ Mono,5.0
+Non-classical Monocyte,CD8 T,0.0
+Non-classical Monocyte,B,0.0
+Non-classical Monocyte,DC,0.0
+Non-classical Monocyte,Memory CD4 T,0.0
+Non-classical Monocyte,Naive CD4 T,0.0
+Non-classical Monocyte,CD14+ Mono,0.0
+Non-classical Monocyte,NK,0.0
+Non-classical Monocyte,Platelet,0.0
+Erythroid,FCGR3A+ Mono,0.0
+Erythroid,CD8 T,0.0
+Erythroid,B,0.0
+Erythroid,DC,0.0
+Erythroid,Memory CD4 T,0.0
+Erythroid,Naive CD4 T,0.0
+Erythroid,CD14+ Mono,0.0
+Erythroid,NK,0.0
+Erythroid,Platelet,0.0
+Plasmacytoid Dendritic (pDC),FCGR3A+ Mono,0.0
+γδ T,FCGR3A+ Mono,0.0
+Natural Killer (NK),FCGR3A+ Mono,0.0
+Plasmacytoid Dendritic (pDC),CD8 T,0.0
+γδ T,CD8 T,0.0
+Natural Killer (NK),CD8 T,0.0
+Plasmacytoid Dendritic (pDC),B,0.0
+γδ T,B,0.0
+Natural Killer (NK),B,0.0
+Plasmacytoid Dendritic (pDC),DC,0.0
+γδ T,DC,0.0
+Natural Killer (NK),DC,0.0
+Plasmacytoid Dendritic (pDC),Memory CD4 T,0.0
+γδ T,Memory CD4 T,0.0
+Natural Killer (NK),Memory CD4 T,0.0
+Plasmacytoid Dendritic (pDC),Naive CD4 T,0.0
+γδ T,Naive CD4 T,0.0
+Natural Killer (NK),Naive CD4 T,0.0
+Plasmacytoid Dendritic (pDC),CD14+ Mono,0.0
+γδ T,CD14+ Mono,0.0
+Natural Killer (NK),CD14+ Mono,0.0
+Plasmacytoid Dendritic (pDC),NK,0.0
+γδ T,NK,0.0
+Natural Killer (NK),NK,5.0
+Plasmacytoid Dendritic (pDC),Platelet,0.0
+γδ T,Platelet,0.0
+Natural Killer (NK),Platelet,0.0
+Classical Monocyte,FCGR3A+ Mono,0.0
+Dendritic (cDC1),FCGR3A+ Mono,0.0
+Classical Monocyte,CD8 T,0.0
+Dendritic (cDC1),CD8 T,0.0
+Classical Monocyte,B,0.0
+Dendritic (cDC1),B,0.0
+Classical Monocyte,DC,0.0
+Dendritic (cDC1),DC,0.0
+Classical Monocyte,Memory CD4 T,0.0
+Dendritic (cDC1),Memory CD4 T,0.0
+Classical Monocyte,Naive CD4 T,0.0
+Dendritic (cDC1),Naive CD4 T,0.0
+Classical Monocyte,CD14+ Mono,5.0
+Dendritic (cDC1),CD14+ Mono,0.0
+Classical Monocyte,NK,0.0
+Dendritic (cDC1),NK,0.0
+Classical Monocyte,Platelet,0.0
+Dendritic (cDC1),Platelet,0.0
+Plasmacytoid dendritic,FCGR3A+ Mono,0.0
+Doublets,FCGR3A+ Mono,0.0
+Plasmacytoid dendritic,CD8 T,0.0
+Doublets,CD8 T,0.0
+Plasmacytoid dendritic,B,0.0
+Doublets,B,0.0
+Plasmacytoid dendritic,DC,0.0
+Doublets,DC,0.0
+Plasmacytoid dendritic,Memory CD4 T,0.0
+Doublets,Memory CD4 T,0.0
+Plasmacytoid dendritic,Naive CD4 T,0.0
+Doublets,Naive CD4 T,0.0
+Plasmacytoid dendritic,CD14+ Mono,0.0
+Doublets,CD14+ Mono,0.0
+Plasmacytoid dendritic,NK,0.0
+Doublets,NK,0.0
+Plasmacytoid dendritic,Platelet,0.0
+Doublets,Platelet,0.0
+CD14+ Monocytes,FCGR3A+ Mono,0.0
+Natural Killer (NK)s,FCGR3A+ Mono,0.0
+Plasmas,FCGR3A+ Mono,0.0
+CD8+ Ts,FCGR3A+ Mono,0.0
+CD16+ Monocytes,FCGR3A+ Mono,5.0
+CD4+ Naive Ts,FCGR3A+ Mono,0.0
+Regulatory Ts (Tregs),FCGR3A+ Mono,0.0
+CD14+ Monocytes,CD8 T,0.0
+Natural Killer (NK)s,CD8 T,0.0
+Plasmas,CD8 T,0.0
+CD8+ Ts,CD8 T,5.0
+CD16+ Monocytes,CD8 T,0.0
+CD4+ Naive Ts,CD8 T,0.0
+Regulatory Ts (Tregs),CD8 T,0.0
+CD14+ Monocytes,B,0.0
+Natural Killer (NK)s,B,0.0
+Plasmas,B,0.0
+CD8+ Ts,B,0.0
+CD16+ Monocytes,B,0.0
+CD4+ Naive Ts,B,0.0
+Regulatory Ts (Tregs),B,0.0
+CD14+ Monocytes,DC,0.0
+Natural Killer (NK)s,DC,0.0
+Plasmas,DC,0.0
+CD8+ Ts,DC,0.0
+CD16+ Monocytes,DC,0.0
+CD4+ Naive Ts,DC,0.0
+Regulatory Ts (Tregs),DC,0.0
+CD14+ Monocytes,Memory CD4 T,0.0
+Natural Killer (NK)s,Memory CD4 T,0.0
+Plasmas,Memory CD4 T,0.0
+CD8+ Ts,Memory CD4 T,0.0
+CD16+ Monocytes,Memory CD4 T,0.0
+CD4+ Naive Ts,Memory CD4 T,0.0
+Regulatory Ts (Tregs),Memory CD4 T,0.0
+CD14+ Monocytes,Naive CD4 T,0.0
+Natural Killer (NK)s,Naive CD4 T,0.0
+Plasmas,Naive CD4 T,0.0
+CD8+ Ts,Naive CD4 T,0.0
+CD16+ Monocytes,Naive CD4 T,0.0
+CD4+ Naive Ts,Naive CD4 T,5.0
+Regulatory Ts (Tregs),Naive CD4 T,0.0
+CD14+ Monocytes,CD14+ Mono,5.0
+Natural Killer (NK)s,CD14+ Mono,0.0
+Plasmas,CD14+ Mono,0.0
+CD8+ Ts,CD14+ Mono,0.0
+CD16+ Monocytes,CD14+ Mono,0.0
+CD4+ Naive Ts,CD14+ Mono,0.0
+Regulatory Ts (Tregs),CD14+ Mono,0.0
+CD14+ Monocytes,NK,0.0
+Natural Killer (NK)s,NK,5.0
+Plasmas,NK,0.0
+CD8+ Ts,NK,0.0
+CD16+ Monocytes,NK,0.0
+CD4+ Naive Ts,NK,0.0
+Regulatory Ts (Tregs),NK,0.0
+CD14+ Monocytes,Platelet,0.0
+Natural Killer (NK)s,Platelet,0.0
+Plasmas,Platelet,0.0
+CD8+ Ts,Platelet,0.0
+CD16+ Monocytes,Platelet,0.0
+CD4+ Naive Ts,Platelet,0.0
+Regulatory Ts (Tregs),Platelet,0.0
+Naive CD4+ T,FCGR3A+ Mono,0.0
+Plasmacytoid dendritic (pDC),FCGR3A+ Mono,0.0
+Naive CD4+ T,CD8 T,0.0
+Plasmacytoid dendritic (pDC),CD8 T,0.0
+Naive CD4+ T,B,0.0
+Plasmacytoid dendritic (pDC),B,0.0
+Naive CD4+ T,DC,0.0
+Plasmacytoid dendritic (pDC),DC,0.0
+Naive CD4+ T,Memory CD4 T,0.0
+Plasmacytoid dendritic (pDC),Memory CD4 T,0.0
+Naive CD4+ T,Naive CD4 T,5.0
+Plasmacytoid dendritic (pDC),Naive CD4 T,0.0
+Naive CD4+ T,CD14+ Mono,0.0
+Plasmacytoid dendritic (pDC),CD14+ Mono,0.0
+Naive CD4+ T,NK,0.0
+Plasmacytoid dendritic (pDC),NK,0.0
+Naive CD4+ T,Platelet,0.0
+Plasmacytoid dendritic (pDC),Platelet,0.0
+CD14+ Monocyte,FCGR3A+ Mono,0.0
+CD14+ Monocyte,CD8 T,0.0
+CD14+ Monocyte,B,0.0
+CD14+ Monocyte,DC,0.0
+CD14+ Monocyte,Memory CD4 T,0.0
+CD14+ Monocyte,Naive CD4 T,0.0
+CD14+ Monocyte,CD14+ Mono,5.0
+CD14+ Monocyte,NK,0.0
+CD14+ Monocyte,Platelet,0.0
+Progenitor,FCGR3A+ Mono,1.0
+Progenitor,CD8 T,1.0
+Progenitor,B,1.0
+Progenitor,DC,0.0
+Progenitor,Memory CD4 T,1.0
+Progenitor,Naive CD4 T,0.0
+Progenitor,CD14+ Mono,1.0
+Progenitor,NK,0.0
+Progenitor,Platelet,1.0
+Unclassified,FCGR3A+ Mono,0.0
+Unclassified,CD8 T,0.0
+Unclassified,B,0.0
+Unclassified,DC,2.0
+Unclassified,Memory CD4 T,0.0
+Unclassified,Naive CD4 T,0.0
+Unclassified,CD14+ Mono,0.0
+Unclassified,NK,0.0
+Unclassified,Platelet,0.0
+CD14 Monocyte,FCGR3A+ Mono,0.0
+CD14 Monocyte,CD8 T,0.0
+CD14 Monocyte,DC,0.0
+CD14 Monocyte,B,0.0
+CD14 Monocyte,Memory CD4 T,0.0
+CD14 Monocyte,Naive CD4 T,0.0
+CD14 Monocyte,CD14+ Mono,5.0
+CD14 Monocyte,NK,0.0
+CD14 Monocyte,Platelet,0.0
+T (unspecified),FCGR3A+ Mono,0.0
+Monocyte (CD14+),FCGR3A+ Mono,0.0
+Monocyte (CD16+),FCGR3A+ Mono,5.0
+T (unspecified),CD8 T,4.0
+Monocyte (CD14+),CD8 T,0.0
+Monocyte (CD16+),CD8 T,0.0
+T (unspecified),B,0.0
+Monocyte (CD14+),B,0.0
+Monocyte (CD16+),B,0.0
+T (unspecified),DC,0.0
+Monocyte (CD14+),DC,0.0
+Monocyte (CD16+),DC,0.0
+T (unspecified),Memory CD4 T,3.0
+Monocyte (CD14+),Memory CD4 T,0.0
+Monocyte (CD16+),Memory CD4 T,0.0
+T (unspecified),Naive CD4 T,3.0
+Monocyte (CD14+),Naive CD4 T,0.0
+Monocyte (CD16+),Naive CD4 T,0.0
+T (unspecified),CD14+ Mono,0.0
+Monocyte (CD14+),CD14+ Mono,5.0
+Monocyte (CD16+),CD14+ Mono,0.0
+T (unspecified),NK,0.0
+Monocyte (CD14+),NK,0.0
+Monocyte (CD16+),NK,0.0
+T (unspecified),Platelet,0.0
+Monocyte (CD14+),Platelet,0.0
+Monocyte (CD16+),Platelet,0.0
